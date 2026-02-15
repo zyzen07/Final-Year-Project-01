@@ -1,0 +1,802 @@
+[
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.36,
+    "F5": 0,
+    "risk_score": 0.379,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.4,
+    "F3": 1.0,
+    "F4": 0.505,
+    "F5": 0,
+    "risk_score": 0.676,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.575,
+    "risk_label": 0,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.393,
+    "F5": 0,
+    "risk_score": 0.384,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.51,
+    "F5": 0,
+    "risk_score": 0.702,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.6,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.6,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.372,
+    "F5": 0,
+    "risk_score": 0.381,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.502,
+    "F5": 0,
+    "risk_score": 0.7,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.7,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.625,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.38,
+    "F5": 0,
+    "risk_score": 0.382,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.505,
+    "F5": 0,
+    "risk_score": 0.701,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.6,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.6,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.365,
+    "F5": 0,
+    "risk_score": 0.38,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.504,
+    "F5": 0,
+    "risk_score": 0.701,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.7,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.625,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.378,
+    "F5": 0,
+    "risk_score": 0.382,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.502,
+    "F5": 0,
+    "risk_score": 0.7,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.575,
+    "risk_label": 0,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.37,
+    "F5": 0,
+    "risk_score": 0.381,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.5,
+    "F5": 0,
+    "risk_score": 0.7,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.7,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.625,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.383,
+    "F5": 0,
+    "risk_score": 0.382,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.3,
+    "F3": 1.0,
+    "F4": 0.497,
+    "F5": 0,
+    "risk_score": 0.65,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.2,
+    "F3": 1.0,
+    "F4": 0.496,
+    "F5": 0,
+    "risk_score": 0.624,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.6,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.6,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.375,
+    "F5": 0,
+    "risk_score": 0.381,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.494,
+    "F5": 0,
+    "risk_score": 0.699,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.7,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.625,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.367,
+    "F5": 0,
+    "risk_score": 0.38,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.491,
+    "F5": 0,
+    "risk_score": 0.699,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.4,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.55,
+    "risk_label": 0,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.2,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.5,
+    "risk_label": 0,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.362,
+    "F5": 0,
+    "risk_score": 0.379,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.489,
+    "F5": 0,
+    "risk_score": 0.698,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.7,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.625,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.385,
+    "F5": 0,
+    "risk_score": 0.383,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.4,
+    "F3": 1.0,
+    "F4": 0.482,
+    "F5": 0,
+    "risk_score": 0.672,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 1.0,
+    "F4": 0.505,
+    "F5": 0,
+    "risk_score": 0.601,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.6,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.6,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.357,
+    "F5": 0,
+    "risk_score": 0.379,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.484,
+    "F5": 0,
+    "risk_score": 0.698,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.7,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.625,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.355,
+    "F5": 0,
+    "risk_score": 0.378,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.481,
+    "F5": 0,
+    "risk_score": 0.697,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.6,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.6,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.35,
+    "F5": 0,
+    "risk_score": 0.378,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.479,
+    "F5": 0,
+    "risk_score": 0.697,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.7,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.625,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.347,
+    "F5": 0,
+    "risk_score": 0.377,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.476,
+    "F5": 0,
+    "risk_score": 0.696,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.6,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.6,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.345,
+    "F5": 0,
+    "risk_score": 0.377,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 1.0,
+    "F4": 0.475,
+    "F5": 0,
+    "risk_score": 0.596,
+    "risk_label": 0,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.4,
+    "F3": 1.0,
+    "F4": 0.474,
+    "F5": 0,
+    "risk_score": 0.671,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.7,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.625,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.343,
+    "F5": 0,
+    "risk_score": 0.376,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.5,
+    "F3": 1.0,
+    "F4": 0.471,
+    "F5": 0,
+    "risk_score": 0.696,
+    "risk_label": 1,
+    "true_label": "attacker"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.6,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.6,
+    "risk_label": 1,
+    "true_label": "bot"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 0.34,
+    "F5": 0,
+    "risk_score": 0.376,
+    "risk_label": 0,
+    "true_label": "normal"
+  },
+  {
+    "F1": 1.0,
+    "F2": 0.1,
+    "F3": 0.0,
+    "F4": 1.0,
+    "F5": 0,
+    "risk_score": 0.475,
+    "risk_label": 0,
+    "true_label": "normal"
+  }
+]

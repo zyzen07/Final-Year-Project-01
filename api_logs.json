@@ -1,0 +1,2432 @@
+[
+  {
+    "timestamp": "2026-02-07T09:15:23Z",
+    "ip": "192.168.1.45",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 256,
+    "response_time_ms": 145,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:16:41Z",
+    "ip": "192.168.1.45",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4832,
+    "response_time_ms": 89,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:18:12Z",
+    "ip": "192.168.1.45",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 5120,
+    "response_time_ms": 102,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:20:03Z",
+    "ip": "203.0.113.88",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 198,
+    "response_time_ms": 34,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:20:08Z",
+    "ip": "203.0.113.88",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 201,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:20:13Z",
+    "ip": "203.0.113.88",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 204,
+    "response_time_ms": 29,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:20:17Z",
+    "ip": "203.0.113.88",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 189,
+    "response_time_ms": 26,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:21:45Z",
+    "ip": "10.50.100.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4912,
+    "response_time_ms": 67,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:21:47Z",
+    "ip": "10.50.100.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4920,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:21:49Z",
+    "ip": "10.50.100.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4928,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:21:51Z",
+    "ip": "10.50.100.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4915,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:21:53Z",
+    "ip": "10.50.100.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4930,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:22:34Z",
+    "ip": "172.16.5.12",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 243,
+    "response_time_ms": 152,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:23:48Z",
+    "ip": "172.16.5.12",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4765,
+    "response_time_ms": 95,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:25:11Z",
+    "ip": "198.51.100.42",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 195,
+    "response_time_ms": 37,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:25:15Z",
+    "ip": "198.51.100.42",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 199,
+    "response_time_ms": 33,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:25:19Z",
+    "ip": "198.51.100.42",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 202,
+    "response_time_ms": 30,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:25:23Z",
+    "ip": "198.51.100.42",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 197,
+    "response_time_ms": 35,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:25:27Z",
+    "ip": "198.51.100.42",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 188,
+    "response_time_ms": 28,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:26:02Z",
+    "ip": "45.120.67.89",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4888,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:26:04Z",
+    "ip": "45.120.67.89",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4895,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:26:06Z",
+    "ip": "45.120.67.89",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4902,
+    "response_time_ms": 74,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:26:08Z",
+    "ip": "45.120.67.89",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4891,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:26:10Z",
+    "ip": "45.120.67.89",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4898,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:26:12Z",
+    "ip": "45.120.67.89",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4903,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:27:23Z",
+    "ip": "192.168.10.78",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 251,
+    "response_time_ms": 138,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:28:45Z",
+    "ip": "192.168.10.78",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4701,
+    "response_time_ms": 91,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:29:12Z",
+    "ip": "203.0.113.101",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 200,
+    "response_time_ms": 32,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:29:16Z",
+    "ip": "203.0.113.101",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 203,
+    "response_time_ms": 29,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:29:20Z",
+    "ip": "203.0.113.101",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 196,
+    "response_time_ms": 36,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:29:24Z",
+    "ip": "203.0.113.101",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 205,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:29:28Z",
+    "ip": "203.0.113.101",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 191,
+    "response_time_ms": 27,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:30:15Z",
+    "ip": "10.50.100.245",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4945,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:30:17Z",
+    "ip": "10.50.100.245",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4952,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:30:19Z",
+    "ip": "10.50.100.245",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4938,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:30:21Z",
+    "ip": "10.50.100.245",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4941,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:30:23Z",
+    "ip": "10.50.100.245",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4948,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:30:25Z",
+    "ip": "10.50.100.245",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4955,
+    "response_time_ms": 67,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:30:27Z",
+    "ip": "10.50.100.245",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4943,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:31:56Z",
+    "ip": "172.16.8.99",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 248,
+    "response_time_ms": 141,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:33:12Z",
+    "ip": "172.16.8.99",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4823,
+    "response_time_ms": 87,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:34:05Z",
+    "ip": "198.51.100.58",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 198,
+    "response_time_ms": 34,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:34:09Z",
+    "ip": "198.51.100.58",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 201,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:34:13Z",
+    "ip": "198.51.100.58",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 204,
+    "response_time_ms": 33,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:34:17Z",
+    "ip": "198.51.100.58",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 199,
+    "response_time_ms": 35,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:34:21Z",
+    "ip": "198.51.100.58",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 187,
+    "response_time_ms": 26,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:35:33Z",
+    "ip": "45.120.68.112",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4876,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:35:35Z",
+    "ip": "45.120.68.112",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4883,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:35:37Z",
+    "ip": "45.120.68.112",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4890,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:35:39Z",
+    "ip": "45.120.68.112",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4879,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:35:41Z",
+    "ip": "45.120.68.112",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4886,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:35:43Z",
+    "ip": "45.120.68.112",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4893,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:36:54Z",
+    "ip": "192.168.2.134",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 254,
+    "response_time_ms": 148,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:38:21Z",
+    "ip": "192.168.2.134",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4912,
+    "response_time_ms": 93,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:39:08Z",
+    "ip": "203.0.113.122",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 197,
+    "response_time_ms": 36,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:39:12Z",
+    "ip": "203.0.113.122",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 202,
+    "response_time_ms": 32,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:39:16Z",
+    "ip": "203.0.113.122",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 195,
+    "response_time_ms": 34,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:39:20Z",
+    "ip": "203.0.113.122",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 206,
+    "response_time_ms": 30,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:39:24Z",
+    "ip": "203.0.113.122",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 192,
+    "response_time_ms": 28,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:40:42Z",
+    "ip": "10.50.101.56",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4921,
+    "response_time_ms": 67,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:40:44Z",
+    "ip": "10.50.101.56",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4928,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:40:46Z",
+    "ip": "10.50.101.56",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4914,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:40:48Z",
+    "ip": "10.50.101.56",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4917,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:40:50Z",
+    "ip": "10.50.101.56",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4924,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:40:52Z",
+    "ip": "10.50.101.56",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4931,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:40:54Z",
+    "ip": "10.50.101.56",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4919,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:42:15Z",
+    "ip": "172.16.12.45",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 249,
+    "response_time_ms": 143,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:43:34Z",
+    "ip": "172.16.12.45",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4789,
+    "response_time_ms": 88,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:44:23Z",
+    "ip": "198.51.100.71",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 200,
+    "response_time_ms": 35,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:44:27Z",
+    "ip": "198.51.100.71",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 203,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:44:31Z",
+    "ip": "198.51.100.71",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 196,
+    "response_time_ms": 33,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:44:35Z",
+    "ip": "198.51.100.71",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 207,
+    "response_time_ms": 29,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:44:39Z",
+    "ip": "198.51.100.71",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 190,
+    "response_time_ms": 27,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:45:58Z",
+    "ip": "45.120.69.203",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4865,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:46:00Z",
+    "ip": "45.120.69.203",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4872,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:46:02Z",
+    "ip": "45.120.69.203",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4879,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:46:04Z",
+    "ip": "45.120.69.203",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4868,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:46:06Z",
+    "ip": "45.120.69.203",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4875,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:46:08Z",
+    "ip": "45.120.69.203",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4882,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:47:29Z",
+    "ip": "192.168.5.88",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 252,
+    "response_time_ms": 146,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:48:41Z",
+    "ip": "192.168.5.88",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4856,
+    "response_time_ms": 90,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:49:37Z",
+    "ip": "203.0.113.145",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 199,
+    "response_time_ms": 33,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:49:41Z",
+    "ip": "203.0.113.145",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 204,
+    "response_time_ms": 30,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:49:45Z",
+    "ip": "203.0.113.145",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 197,
+    "response_time_ms": 35,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:49:49Z",
+    "ip": "203.0.113.145",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 208,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:49:53Z",
+    "ip": "203.0.113.145",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 193,
+    "response_time_ms": 26,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:51:12Z",
+    "ip": "10.50.102.78",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4933,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:51:14Z",
+    "ip": "10.50.102.78",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4940,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:51:16Z",
+    "ip": "10.50.102.78",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4926,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:51:18Z",
+    "ip": "10.50.102.78",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4929,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:51:20Z",
+    "ip": "10.50.102.78",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4936,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:51:22Z",
+    "ip": "10.50.102.78",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4943,
+    "response_time_ms": 67,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:51:24Z",
+    "ip": "10.50.102.78",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4931,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:52:43Z",
+    "ip": "172.16.15.67",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 247,
+    "response_time_ms": 139,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:53:58Z",
+    "ip": "172.16.15.67",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4734,
+    "response_time_ms": 92,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:54:51Z",
+    "ip": "198.51.100.94",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 201,
+    "response_time_ms": 34,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:54:55Z",
+    "ip": "198.51.100.94",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 205,
+    "response_time_ms": 32,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:54:59Z",
+    "ip": "198.51.100.94",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 198,
+    "response_time_ms": 36,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:55:03Z",
+    "ip": "198.51.100.94",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 209,
+    "response_time_ms": 28,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:55:07Z",
+    "ip": "198.51.100.94",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 194,
+    "response_time_ms": 27,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T09:56:23Z",
+    "ip": "45.120.70.134",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4854,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:56:25Z",
+    "ip": "45.120.70.134",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4861,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:56:27Z",
+    "ip": "45.120.70.134",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4868,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:56:29Z",
+    "ip": "45.120.70.134",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4857,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:56:31Z",
+    "ip": "45.120.70.134",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4864,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:56:33Z",
+    "ip": "45.120.70.134",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4871,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T09:57:54Z",
+    "ip": "192.168.8.112",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 250,
+    "response_time_ms": 144,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T09:59:06Z",
+    "ip": "192.168.8.112",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4898,
+    "response_time_ms": 94,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:00:04Z",
+    "ip": "203.0.113.167",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 202,
+    "response_time_ms": 32,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:00:08Z",
+    "ip": "203.0.113.167",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 206,
+    "response_time_ms": 29,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:00:12Z",
+    "ip": "203.0.113.167",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 199,
+    "response_time_ms": 34,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:00:16Z",
+    "ip": "203.0.113.167",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 210,
+    "response_time_ms": 30,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:00:20Z",
+    "ip": "203.0.113.167",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 195,
+    "response_time_ms": 28,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:01:38Z",
+    "ip": "10.50.103.91",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4909,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:01:40Z",
+    "ip": "10.50.103.91",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4916,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:01:42Z",
+    "ip": "10.50.103.91",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4902,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:01:44Z",
+    "ip": "10.50.103.91",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4905,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:01:46Z",
+    "ip": "10.50.103.91",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4912,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:01:48Z",
+    "ip": "10.50.103.91",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4919,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:01:50Z",
+    "ip": "10.50.103.91",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4907,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:03:11Z",
+    "ip": "172.16.18.23",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 253,
+    "response_time_ms": 147,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:04:27Z",
+    "ip": "172.16.18.23",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4812,
+    "response_time_ms": 86,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:05:19Z",
+    "ip": "198.51.100.115",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 203,
+    "response_time_ms": 33,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:05:23Z",
+    "ip": "198.51.100.115",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 207,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:05:27Z",
+    "ip": "198.51.100.115",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 200,
+    "response_time_ms": 35,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:05:31Z",
+    "ip": "198.51.100.115",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 211,
+    "response_time_ms": 29,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:05:35Z",
+    "ip": "198.51.100.115",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 196,
+    "response_time_ms": 26,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:06:52Z",
+    "ip": "45.120.71.167",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4843,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:06:54Z",
+    "ip": "45.120.71.167",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4850,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:06:56Z",
+    "ip": "45.120.71.167",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4857,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:06:58Z",
+    "ip": "45.120.71.167",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4846,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:07:00Z",
+    "ip": "45.120.71.167",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4853,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:07:02Z",
+    "ip": "45.120.71.167",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4860,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:08:21Z",
+    "ip": "192.168.11.156",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 255,
+    "response_time_ms": 149,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:09:33Z",
+    "ip": "192.168.11.156",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4867,
+    "response_time_ms": 96,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:10:32Z",
+    "ip": "203.0.113.189",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 204,
+    "response_time_ms": 34,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:10:36Z",
+    "ip": "203.0.113.189",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 208,
+    "response_time_ms": 30,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:10:40Z",
+    "ip": "203.0.113.189",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 201,
+    "response_time_ms": 36,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:10:44Z",
+    "ip": "203.0.113.189",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 212,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:10:48Z",
+    "ip": "203.0.113.189",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 197,
+    "response_time_ms": 27,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:12:05Z",
+    "ip": "10.50.104.123",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4897,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:12:07Z",
+    "ip": "10.50.104.123",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4904,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:12:09Z",
+    "ip": "10.50.104.123",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4890,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:12:11Z",
+    "ip": "10.50.104.123",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4893,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:12:13Z",
+    "ip": "10.50.104.123",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4900,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:12:15Z",
+    "ip": "10.50.104.123",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4907,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:12:17Z",
+    "ip": "10.50.104.123",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4895,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:13:38Z",
+    "ip": "172.16.21.89",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 246,
+    "response_time_ms": 140,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:14:54Z",
+    "ip": "172.16.21.89",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4745,
+    "response_time_ms": 89,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:15:47Z",
+    "ip": "198.51.100.138",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 205,
+    "response_time_ms": 32,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:15:51Z",
+    "ip": "198.51.100.138",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 209,
+    "response_time_ms": 34,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:15:55Z",
+    "ip": "198.51.100.138",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 202,
+    "response_time_ms": 30,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:15:59Z",
+    "ip": "198.51.100.138",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 213,
+    "response_time_ms": 28,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:16:03Z",
+    "ip": "198.51.100.138",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 198,
+    "response_time_ms": 27,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:17:19Z",
+    "ip": "45.120.72.201",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4832,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:17:21Z",
+    "ip": "45.120.72.201",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4839,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:17:23Z",
+    "ip": "45.120.72.201",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4846,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:17:25Z",
+    "ip": "45.120.72.201",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4835,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:17:27Z",
+    "ip": "45.120.72.201",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4842,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:17:29Z",
+    "ip": "45.120.72.201",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4849,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:18:48Z",
+    "ip": "192.168.14.178",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 257,
+    "response_time_ms": 151,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:20:01Z",
+    "ip": "192.168.14.178",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4923,
+    "response_time_ms": 97,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:21:00Z",
+    "ip": "203.0.113.210",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 206,
+    "response_time_ms": 35,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:21:04Z",
+    "ip": "203.0.113.210",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 210,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:21:08Z",
+    "ip": "203.0.113.210",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 203,
+    "response_time_ms": 33,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:21:12Z",
+    "ip": "203.0.113.210",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 214,
+    "response_time_ms": 29,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:21:16Z",
+    "ip": "203.0.113.210",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 199,
+    "response_time_ms": 28,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:22:33Z",
+    "ip": "10.50.105.145",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4885,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:22:35Z",
+    "ip": "10.50.105.145",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4892,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:22:37Z",
+    "ip": "10.50.105.145",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4878,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:22:39Z",
+    "ip": "10.50.105.145",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4881,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:22:41Z",
+    "ip": "10.50.105.145",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4888,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:22:43Z",
+    "ip": "10.50.105.145",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4895,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:22:45Z",
+    "ip": "10.50.105.145",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4883,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:24:05Z",
+    "ip": "172.16.24.56",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 258,
+    "response_time_ms": 145,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:25:21Z",
+    "ip": "172.16.24.56",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4778,
+    "response_time_ms": 91,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:26:15Z",
+    "ip": "198.51.100.152",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 207,
+    "response_time_ms": 33,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:26:19Z",
+    "ip": "198.51.100.152",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 211,
+    "response_time_ms": 35,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:26:23Z",
+    "ip": "198.51.100.152",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 204,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:26:27Z",
+    "ip": "198.51.100.152",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 215,
+    "response_time_ms": 29,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:26:31Z",
+    "ip": "198.51.100.152",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 200,
+    "response_time_ms": 26,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:27:46Z",
+    "ip": "45.120.73.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4821,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:27:48Z",
+    "ip": "45.120.73.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4828,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:27:50Z",
+    "ip": "45.120.73.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4835,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:27:52Z",
+    "ip": "45.120.73.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4824,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:27:54Z",
+    "ip": "45.120.73.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4831,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:27:56Z",
+    "ip": "45.120.73.234",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4838,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:29:15Z",
+    "ip": "192.168.17.201",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 260,
+    "response_time_ms": 142,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:30:28Z",
+    "ip": "192.168.17.201",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4956,
+    "response_time_ms": 98,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:31:28Z",
+    "ip": "203.0.113.232",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 208,
+    "response_time_ms": 34,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:31:32Z",
+    "ip": "203.0.113.232",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 212,
+    "response_time_ms": 32,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:31:36Z",
+    "ip": "203.0.113.232",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 205,
+    "response_time_ms": 36,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:31:40Z",
+    "ip": "203.0.113.232",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 216,
+    "response_time_ms": 30,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:31:44Z",
+    "ip": "203.0.113.232",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 201,
+    "response_time_ms": 27,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:33:00Z",
+    "ip": "10.50.106.178",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4873,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:33:02Z",
+    "ip": "10.50.106.178",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4880,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:33:04Z",
+    "ip": "10.50.106.178",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4866,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:33:06Z",
+    "ip": "10.50.106.178",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4869,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:33:08Z",
+    "ip": "10.50.106.178",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4876,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:33:10Z",
+    "ip": "10.50.106.178",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4883,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:33:12Z",
+    "ip": "10.50.106.178",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4871,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:34:32Z",
+    "ip": "172.16.27.123",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 261,
+    "response_time_ms": 150,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:35:48Z",
+    "ip": "172.16.27.123",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4801,
+    "response_time_ms": 85,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:36:43Z",
+    "ip": "198.51.100.175",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 209,
+    "response_time_ms": 35,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:36:47Z",
+    "ip": "198.51.100.175",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 213,
+    "response_time_ms": 33,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:36:51Z",
+    "ip": "198.51.100.175",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 206,
+    "response_time_ms": 31,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:36:55Z",
+    "ip": "198.51.100.175",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 217,
+    "response_time_ms": 28,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:36:59Z",
+    "ip": "198.51.100.175",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 202,
+    "response_time_ms": 26,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:38:13Z",
+    "ip": "45.120.74.12",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4810,
+    "response_time_ms": 74,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:38:15Z",
+    "ip": "45.120.74.12",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4817,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:38:17Z",
+    "ip": "45.120.74.12",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4824,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:38:19Z",
+    "ip": "45.120.74.12",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4813,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:38:21Z",
+    "ip": "45.120.74.12",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4820,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:38:23Z",
+    "ip": "45.120.74.12",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4827,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:39:42Z",
+    "ip": "192.168.20.89",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 262,
+    "response_time_ms": 153,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:40:55Z",
+    "ip": "192.168.20.89",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4989,
+    "response_time_ms": 99,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:41:56Z",
+    "ip": "203.0.113.254",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 210,
+    "response_time_ms": 36,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:42:00Z",
+    "ip": "203.0.113.254",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 214,
+    "response_time_ms": 34,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:42:04Z",
+    "ip": "203.0.113.254",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 207,
+    "response_time_ms": 32,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:42:08Z",
+    "ip": "203.0.113.254",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 218,
+    "response_time_ms": 29,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:42:12Z",
+    "ip": "203.0.113.254",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 203,
+    "response_time_ms": 27,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:43:27Z",
+    "ip": "10.50.107.210",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4861,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:43:29Z",
+    "ip": "10.50.107.210",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4868,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:43:31Z",
+    "ip": "10.50.107.210",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4854,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:43:33Z",
+    "ip": "10.50.107.210",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4857,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:43:35Z",
+    "ip": "10.50.107.210",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4864,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:43:37Z",
+    "ip": "10.50.107.210",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4871,
+    "response_time_ms": 68,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:43:39Z",
+    "ip": "10.50.107.210",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4859,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:44:59Z",
+    "ip": "172.16.30.145",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 263,
+    "response_time_ms": 148,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:46:15Z",
+    "ip": "172.16.30.145",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4834,
+    "response_time_ms": 84,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:47:11Z",
+    "ip": "198.51.100.198",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 211,
+    "response_time_ms": 37,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:47:15Z",
+    "ip": "198.51.100.198",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 215,
+    "response_time_ms": 35,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:47:19Z",
+    "ip": "198.51.100.198",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 208,
+    "response_time_ms": 33,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:47:23Z",
+    "ip": "198.51.100.198",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 401,
+    "payload_size": 219,
+    "response_time_ms": 30,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:47:27Z",
+    "ip": "198.51.100.198",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 403,
+    "payload_size": 204,
+    "response_time_ms": 28,
+    "user_type": "attacker"
+  },
+  {
+    "timestamp": "2026-02-07T10:48:40Z",
+    "ip": "45.120.75.45",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4799,
+    "response_time_ms": 75,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:48:42Z",
+    "ip": "45.120.75.45",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4806,
+    "response_time_ms": 73,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:48:44Z",
+    "ip": "45.120.75.45",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4813,
+    "response_time_ms": 71,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:48:46Z",
+    "ip": "45.120.75.45",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4802,
+    "response_time_ms": 69,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:48:48Z",
+    "ip": "45.120.75.45",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4809,
+    "response_time_ms": 72,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:48:50Z",
+    "ip": "45.120.75.45",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 4816,
+    "response_time_ms": 70,
+    "user_type": "bot"
+  },
+  {
+    "timestamp": "2026-02-07T10:50:09Z",
+    "ip": "192.168.23.167",
+    "endpoint": "/login",
+    "method": "POST",
+    "status": 200,
+    "payload_size": 264,
+    "response_time_ms": 154,
+    "user_type": "normal"
+  },
+  {
+    "timestamp": "2026-02-07T10:51:22Z",
+    "ip": "192.168.23.167",
+    "endpoint": "/products",
+    "method": "GET",
+    "status": 200,
+    "payload_size": 5012,
+    "response_time_ms": 100,
+    "user_type": "normal"
+  }
+]
