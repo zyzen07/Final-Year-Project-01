@@ -2,13 +2,13 @@ import json
 import pickle
 import os
 from datetime import datetime
-from flask import Flask, request, jsonify
-from collections import defaultdict
+from flask import Flask, request, jsonify, render_template
 
 # -------------------------
 # CONFIG
 # -------------------------
 LOG_FILE = "data/api_logs.jsonl"
+DECISION_LOG = "data/decision_log.json"
 WINDOW_SECONDS = 60
 
 app = Flask(__name__)
@@ -17,12 +17,15 @@ app = Flask(__name__)
 with open("models/random_forest.pkl", "rb") as f:
     model = pickle.load(f)
 
-# Ensure log file exists
-if not os.path.exists("data"):
-    os.makedirs("data")
+# Ensure data dir exists
+os.makedirs("data", exist_ok=True)
 
 if not os.path.exists(LOG_FILE):
     open(LOG_FILE, "w").close()
+
+if not os.path.exists(DECISION_LOG):
+    with open(DECISION_LOG, "w") as f:
+        json.dump([], f)
 
 
 # -------------------------
@@ -30,57 +33,48 @@ if not os.path.exists(LOG_FILE):
 # -------------------------
 def calculate_features(ip):
     logs = []
-
     with open(LOG_FILE, "r") as f:
         for line in f:
-            logs.append(json.loads(line))
+            line = line.strip()
+            if line:
+                logs.append(json.loads(line))
 
-    # Filter logs of this IP
     ip_logs = [l for l in logs if l["ip"] == ip]
+    if not ip_logs:
+        return None, None
 
-    if len(ip_logs) == 0:
-        return None
-
-    # Use last 60 sec window
     now = datetime.utcnow()
-    window_logs = []
+    window_logs = [
+        l for l in ip_logs
+        if (now - datetime.fromisoformat(l["timestamp"])).total_seconds() <= WINDOW_SECONDS
+    ]
 
-    for log in ip_logs:
-        ts = datetime.fromisoformat(log["timestamp"])
-        if (now - ts).total_seconds() <= WINDOW_SECONDS:
-            window_logs.append(log)
+    if not window_logs:
+        return None, None
 
-    if len(window_logs) == 0:
-        return None
-
-    total = len(window_logs)
+    total     = len(window_logs)
     endpoints = [l["endpoint"] for l in window_logs]
-    failures = [l for l in window_logs if l["status"] >= 400]
+    failures  = [l for l in window_logs if l["status"] >= 400]
 
-    # F1 Endpoint repetition
-    most_common = max(endpoints.count(e) for e in set(endpoints))
-    F1 = most_common / total
-
-    # F2 Request rate
-    expected_rate = 10
-    F2 = min(total / expected_rate, 1.0)
-
-    # F3 Failure ratio
+    F1 = max(endpoints.count(e) for e in set(endpoints)) / total
+    F2 = min(total / 10, 1.0)
     F3 = len(failures) / total
-
-    # F4 Payload deviation
     avg_payload = sum(l["payload_size"] for l in window_logs) / total
     F4 = min(abs(avg_payload - 400) / 400, 1.0)
+    F5 = 1 if "login->login" in "->".join(endpoints) else 0
 
-    # F5 Sequence violation
-    sequence = "->".join(endpoints)
-    F5 = 1 if "login->login" in sequence else 0
-
-    return [F1, F2, F3, F4, F5]
+    feature_dict = {
+        "F1": round(F1, 3),
+        "F2": round(F2, 3),
+        "F3": round(F3, 3),
+        "F4": round(F4, 3),
+        "F5": F5
+    }
+    return [F1, F2, F3, F4, F5], feature_dict
 
 
 # -------------------------
-# Logging Function
+# Logging
 # -------------------------
 def log_request(ip, endpoint, method, status, payload_size):
     entry = {
@@ -91,73 +85,102 @@ def log_request(ip, endpoint, method, status, payload_size):
         "status": status,
         "payload_size": payload_size,
     }
-
     with open(LOG_FILE, "a") as f:
         f.write(json.dumps(entry) + "\n")
+
+
+def log_decision(ip, endpoint, method, decision, risk_score, features):
+    with open(DECISION_LOG, "r") as f:
+        records = json.load(f)
+
+    records.append({
+        "time": datetime.utcnow().strftime("%H:%M:%S"),
+        "ip": ip,
+        "endpoint": endpoint,
+        "method": method,
+        "decision": decision,
+        "risk_score": round(risk_score, 4),
+        "features": features
+    })
+
+    # Keep last 200 entries
+    records = records[-200:]
+
+    with open(DECISION_LOG, "w") as f:
+        json.dump(records, f)
 
 
 # -------------------------
 # Risk Evaluation
 # -------------------------
 def evaluate_risk(ip):
-    features = calculate_features(ip)
+    feature_list, feature_dict = calculate_features(ip)
 
-    if features is None:
-        return "ALLOW", 0.0
+    if feature_list is None:
+        return "ALLOW", 0.0, {}
 
-    prediction = model.predict([features])[0]
-    probability = model.predict_proba([features])[0][1]
+    prediction  = model.predict([feature_list])[0]
+    probability = model.predict_proba([feature_list])[0][1]
 
-    if prediction == 1:
-        return "BLOCK", float(probability)
-    else:
-        return "ALLOW", float(probability)
+    decision = "BLOCK" if prediction == 1 else "ALLOW"
+    return decision, float(probability), feature_dict
+
+
+# -------------------------
+# DASHBOARD
+# -------------------------
+@app.route("/")
+def dashboard():
+    return render_template("dashboard.html")
+
+
+@app.route("/dashboard/logs")
+def dashboard_logs():
+    if not os.path.exists(DECISION_LOG):
+        return jsonify([])
+    with open(DECISION_LOG, "r") as f:
+        return jsonify(json.load(f))
 
 
 # -------------------------
 # API ENDPOINTS
 # -------------------------
-
 @app.route("/login", methods=["POST"])
 def login():
-    ip = request.remote_addr or "127.0.0.1"
+    ip           = request.remote_addr or "127.0.0.1"
     payload_size = len(request.data)
 
-    # simulate login success
-    status = 200
-
-    log_request(ip, "/login", "POST", status, payload_size)
-
-    decision, risk_score = evaluate_risk(ip)
+    log_request(ip, "/login", "POST", 200, payload_size)
+    decision, risk_score, features = evaluate_risk(ip)
+    log_decision(ip, "/login", "POST", decision, risk_score, features)
 
     return jsonify({
         "endpoint": "login",
         "decision": decision,
-        "risk_score": risk_score
+        "risk_score": risk_score,
+        "features": features
     })
 
 
 @app.route("/products", methods=["GET"])
 def products():
-    ip = request.remote_addr or "127.0.0.1"
+    ip           = request.remote_addr or "127.0.0.1"
     payload_size = 4800
 
-    status = 200
-
-    log_request(ip, "/products", "GET", status, payload_size)
-
-    decision, risk_score = evaluate_risk(ip)
+    log_request(ip, "/products", "GET", 200, payload_size)
+    decision, risk_score, features = evaluate_risk(ip)
+    log_decision(ip, "/products", "GET", decision, risk_score, features)
 
     return jsonify({
         "endpoint": "products",
         "decision": decision,
-        "risk_score": risk_score
+        "risk_score": risk_score,
+        "features": features
     })
 
 
 # -------------------------
-# RUN SERVER
+# RUN
 # -------------------------
-
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
